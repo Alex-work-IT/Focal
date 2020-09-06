@@ -245,3 +245,45 @@ h1, h2, h3, h4,h5 {
     line-height: 1,5;
     color: #919191;
 }
+
+/* my skills */
+.btn2 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    margin-top: 50px;
+    border: 3px solid #566366;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background .1s linear, color .1s linear;
+}
+
+.btn2:hover {
+    background-color: #fff;
+    color: #2ecc71;
+    border: 3px solid #2ecc71;
+}
+.skill_inner {
+    display: flex;
+    margin: 80px 80px;
+}
+.skill_lvl {
+margin: 80px;
+}
+.skill_title {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: #566366;
+    text-transform: uppercase;
+}
+.lvl {
+    width: 560px;
+    height: 30px;
+    background: #2ecc71;
+}
